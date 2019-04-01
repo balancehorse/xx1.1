@@ -9,12 +9,21 @@
 import UIKit
 import Customkeyboard
 
+
 class AccountViewController: UITableViewController{
     
     //剩余金额
     var leftNumber = 0
     //总金额
     var countMoney = 0
+    
+    //自定义文本框
+    let textField = UITextField(frame: CGRect(x: 100, y: 120, width: 200, height: 35))
+    //自定义键盘
+    var keyboard = CustomKeyboard()
+    
+    //定时器
+    var timer = Timer()
     
     //取账本信息
     var dicFromPList1:NSDictionary? = NSDictionary(contentsOfFile: "/Users/balancehorse/Desktop/xx1.0/xx1.0/dic1.plist")
@@ -283,21 +292,37 @@ class AccountViewController: UITableViewController{
     /// 例子
     private func example() {
         /// 文本框
-        let textField = UITextField(frame: CGRect(x: 100, y: 120, width: 200, height: 35))
+        
         textField.borderStyle = .roundedRect
         view.addSubview(textField)
 
 
-        let keyboard = CustomKeyboard(view, field: textField)
-        keyboard.style = .keyboard
-        keyboard.isEnableKeyboard = true
+        keyboard = CustomKeyboard(view, field: textField)
+//        keyboard.style = .keyboard
+//        keyboard.isEnableKeyboard = true
         keyboard.whetherHighlight = true
         keyboard.frame.size.height = 300
+
         /// 淡蓝色
         let lightBlue = UIColor(red:0.45, green:0.69, blue:0.95, alpha:1.00)
         keyboard.customDoneButton(title: "确定", titleColor: .white, theme: lightBlue, target: self, callback: nil)
         textField.becomeFirstResponder()
+        timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(AccountViewController.UpdateTimer), userInfo: nil, repeats: true)
     }
+    
+    @objc func UpdateTimer() {
+//        if keyboard.flagReturn{
+//            print("111111")
+//        }
+        print(keyboard.flagReturn)
+        if keyboard.flagInput{
+            print("222222222")
+        }
+//        print(keyboard.flag)
+        //此处可以添加处理代码
+        
+    }
+
 }
 
 
