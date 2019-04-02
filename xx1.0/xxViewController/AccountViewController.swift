@@ -16,11 +16,17 @@ class AccountViewController: UITableViewController{
     var leftNumber = 0
     //总金额
     var countMoney = 0
-    
+   //记录花费
+    var cost:Float?
     //自定义文本框
-    let textField = UITextField(frame: CGRect(x: 100, y: 120, width: 200, height: 35))
+    let textField = UITextField(frame: CGRect(x: 100, y:100, width: 200, height: 40))
+    var imageText = UIImageView(frame:CGRect(x: 10, y: 5, width: 30, height: 30))
+    let backgroundView1 = UIView(frame: CGRect(x: 0, y:0, width: UIScreen.main.applicationFrame.size.width, height: UIScreen.main.applicationFrame.size.height))
     //自定义键盘
     var keyboard = CustomKeyboard()
+    /// 淡蓝色
+    let lightBlue = UIColor(red:0.45, green:0.69, blue:0.95, alpha:1.00)
+    let lightGary = UIColor(red: 184/255.0, green: 184/255.0, blue: 173/255.0, alpha: 0.44)
     
     //定时器
     var timer = Timer()
@@ -285,43 +291,56 @@ class AccountViewController: UITableViewController{
     // 选中cell后执行此方法
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
-        example()
+        example(indexPath.row)
         
     }
     
     /// 例子
-    private func example() {
+   private func example(_ Index: Int) {
         /// 文本框
-        
+      
+        backgroundView1.backgroundColor = lightGary
+        view.addSubview(backgroundView1)
         textField.borderStyle = .roundedRect
         view.addSubview(textField)
+        textField.addTarget(self, action: Selector(("textFieldDidChange:")), for: .editingChanged)
 
 
         keyboard = CustomKeyboard(view, field: textField)
-//        keyboard.style = .keyboard
-//        keyboard.isEnableKeyboard = true
         keyboard.whetherHighlight = true
         keyboard.frame.size.height = 300
-
-        /// 淡蓝色
-        let lightBlue = UIColor(red:0.45, green:0.69, blue:0.95, alpha:1.00)
+        imageText.frame = CGRect(x: 10, y: 5, width: 40, height: 30)
+        imageText.image = UIImage(named:imgName[Index])
+        imageText.contentMode = .scaleAspectFit
+        textField.leftView = imageText
+        textField.leftViewMode = UITextField.ViewMode.always
+        textField.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
+        textField.addSubview(imageText)
+        
         keyboard.customDoneButton(title: "确定", titleColor: .white, theme: lightBlue, target: self, callback: nil)
         textField.becomeFirstResponder()
         timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(AccountViewController.UpdateTimer), userInfo: nil, repeats: true)
     }
     
     @objc func UpdateTimer() {
-//        if keyboard.flagReturn{
-//            print("111111")
-//        }
-        print(keyboard.flagReturn)
-        if keyboard.flagInput{
-            print("222222222")
+   
+        if keyboard.flagReturn{
+            if keyboard.flagInput{
+               cost = 0 - cost!
+         }
+         //记录账本的花费
+         print(cost)
+         timer.invalidate()
+         viewWillAppear(true)
         }
-//        print(keyboard.flag)
-        //此处可以添加处理代码
-        
     }
+  
+   @objc func textFieldDidChange(_ textField: UITextField) {
+      if textField.text == ""{
+         cost = 0.0
+      }else{
+      cost = Float(textField.text!)!
+      }}
 
 }
 

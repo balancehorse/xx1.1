@@ -41,7 +41,7 @@
 		58B111B622017AD70094C9C3 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		58B111B822017AD70094C9C3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		58B111B922017AD70094C9C3 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
-		58B111BA22017AD70094C9C3 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		58B111BA22017AD70094C9C3 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 3; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		726C82CBE3103A7BD2B4F43A /* Pods-xx1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xx1.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-xx1.0/Pods-xx1.0.release.xcconfig"; sourceTree = "<group>"; };
 		A6179AA9222924A600D9960E /* addBooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addBooksViewController.swift; sourceTree = "<group>"; };
 		A6179AB0222B800500D9960E /* dic1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = dic1.plist; sourceTree = "<group>"; };

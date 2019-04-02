@@ -169,7 +169,7 @@ class addBooksViewController: UITableViewController {
         let colorOfBook = UIImageView.init(frame: CGRect(x: 0, y: 0, width: 40, height: 18))
         let switchBtn = UISwitch.init(frame: CGRect(x: 0, y: 0, width: 18, height: 40))
         
-        
+        //检测文本框输入值的变化
         nameOfBook.addTarget(self, action: Selector(("textFieldDidChange1:")), for: .editingChanged)
         moneyOfBook.addTarget(self, action: Selector(("textFieldDidChange2:")), for: .editingChanged)
         nameOfBook.placeholder = "账本名"
