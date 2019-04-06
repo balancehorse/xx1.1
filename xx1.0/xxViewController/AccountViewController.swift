@@ -18,6 +18,7 @@ class AccountViewController: UITableViewController{
     var countMoney = 0
    //记录花费
     var cost:Float?
+
     //自定义文本框
     let textField = UITextField(frame: CGRect(x: 100, y:100, width: 200, height: 40))
     var imageText = UIImageView(frame:CGRect(x: 10, y: 5, width: 30, height: 30))
@@ -298,7 +299,7 @@ class AccountViewController: UITableViewController{
     /// 例子
    private func example(_ Index: Int) {
         /// 文本框
-      
+        cost = 0
         backgroundView1.backgroundColor = lightGary
         view.addSubview(backgroundView1)
         textField.borderStyle = .roundedRect
@@ -329,7 +330,15 @@ class AccountViewController: UITableViewController{
                cost = 0 - cost!
          }
          //记录账本的花费
+         
+         //记录时间
+         let date = NSDate()
+         let timeFormatter = DateFormatter()
+         timeFormatter.dateFormat = "yyyy-MM-dd HH:mm"
+         let strNowTime = timeFormatter.string(from: date as Date) as String
+         print(strNowTime)
          print(cost)
+         textField.text = ""
          timer.invalidate()
          viewWillAppear(true)
         }
