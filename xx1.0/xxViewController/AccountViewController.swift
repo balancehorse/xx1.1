@@ -128,7 +128,6 @@ class AccountViewController: UITableViewController{
         self.navigationItem.titleView = titleLabel
         
         //设置左右两边的按钮
-//        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named:"编辑按钮"), style: .plain, target: self, action: #selector(self.leftClick))
         self.navigationItem.leftBarButtonItem = editButtonItem
         navigationItem.leftBarButtonItem?.tintColor = UIColor.gray
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named:"增加"), style: .plain, target: self, action: #selector(self.rightClick))
@@ -151,7 +150,7 @@ class AccountViewController: UITableViewController{
         tableView1!.delegate = self
         
         //table页眉
-        let backgroundView = UIView.init()
+        var backgroundView = UIView.init()
         backgroundView.frame = CGRect(x: 0, y: 0, width: Swidth, height: 40)
         backgroundView.backgroundColor = UIColor.init(red: 237/255.0, green: 237/255.0, blue: 237/255.0, alpha: 1)
         view.addSubview(backgroundView)
