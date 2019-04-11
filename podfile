@@ -2,4 +2,5 @@ platform :ios, '11.2'
 target 'xx1.0' do
 use_frameworks!
 pod 'Customkeyboard', :git => ‘https://github.com/ChinaHackers/CustomKeyboard‘
+pod 'AAInfographics', :git => 'https://github.com/AAChartModel/AAChartKit-Swift'
 end

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "469FB73CD9ECD81C40EE5BC321AA7414"
-               BlueprintName = "Customkeyboard"
+               BlueprintIdentifier = "064750C230EC1AB68D404E91D7821C0F"
+               BlueprintName = "AAInfographics"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Customkeyboard.framework">
+               BuildableName = "AAInfographics.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

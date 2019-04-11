@@ -7,24 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B5CC5C0DE344F42B575D4AE84FC6FF5 /* Keyboard_DismissKey@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9391AB139A215F1D50DB6E911D2EE56 /* Keyboard_DismissKey@3x.png */; };
-		1C5F6C3C6F33B493A025BA8C0E80C820 /* Pods-xx1.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCF78816E25FB1BE22BCA173DB55E18 /* Pods-xx1.0-dummy.m */; };
-		2293F99F2BA1A9A53B969F4DF7B2CFBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		308C716439B39C795C1C71DB2B11F46A /* Keyboard_Backspace@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FB27279E5AE97C608C8895936AB856 /* Keyboard_Backspace@3x.png */; };
-		30940559451D1F3B2B7721B5330FC04D /* Customkeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F223D10572A3A9368C12799AF5A28F2 /* Customkeyboard-dummy.m */; };
-		40BF3210F92AC78D4B63BCC9B8096919 /* Pods-xx1.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A14812B38D9CF9E9A3DA5E5DB9DBD1D0 /* Pods-xx1.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		413C321796F22A796B6ABC5A2765D632 /* CustomKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDF890AFD894FB5345CFCC97592AE7BE /* CustomKeyboard.bundle */; };
-		5088F168DB08213C15B39641AFC6C052 /* Keyboard_DismissKey.png in Resources */ = {isa = PBXBuildFile; fileRef = 25663531758E14679D57DF62F899ABA8 /* Keyboard_DismissKey.png */; };
-		A6A9816F2252350F00798C36 /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A9816E2252350F00798C36 /* CustomKeyboard.swift */; };
+		122143211591464EEE29F6A2E228A1AA /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C668E19D48B8B9F1F13821E909F184F /* CustomKeyboard.swift */; };
+		2C2204AF5C07E8160B9DC425065CAF8B /* AAGradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F29B12360337F62B8B89216648FC3A3 /* AAGradientColor.swift */; };
+		2F848EC8360E42A056F62FDDB13580A8 /* AAInfographics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C4E6C98045AD52E2439488B2CF27AE /* AAInfographics-dummy.m */; };
+		308C716439B39C795C1C71DB2B11F46A /* Keyboard_Backspace@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13597F5593EAEE4529E55F43CCBEE4D7 /* Keyboard_Backspace@3x.png */; };
+		30940559451D1F3B2B7721B5330FC04D /* Customkeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F59FBEEC423106D5D7B20672E02C0405 /* Customkeyboard-dummy.m */; };
+		3C3F26204703D8B6FBBAB7931F43074B /* AAColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45131FA74ADF694751AB4593622D5EF /* AAColor.swift */; };
+		413C321796F22A796B6ABC5A2765D632 /* CustomKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97538684206827709D8762A2FB23E285 /* CustomKeyboard.bundle */; };
+		5088F168DB08213C15B39641AFC6C052 /* Keyboard_DismissKey.png in Resources */ = {isa = PBXBuildFile; fileRef = AB40CCE3BABE3DB903252BAC721DB889 /* Keyboard_DismissKey.png */; };
+		536CB7000D687BEF143BDF520409C0DD /* AASeriesElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD532A5BA5445F069C98334D7AB5241C /* AASeriesElement.swift */; };
+		5806F04B1516A9B95F9EDBC3C42441BE /* AAChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B20EE3401AC0D47EA64351F871562 /* AAChartView.swift */; };
+		5B9C3D6D0EC1210E77418300603460B4 /* AAChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255AF5A1DA38A864416EA340EF2D84B /* AAChartModel.swift */; };
+		6C16B42EDAD9D081120587BA165C4871 /* AAJSFiles.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B5D28E47FB316721B6B28A8628272CD /* AAJSFiles.bundle */; };
+		9ABB09CE44329A8F80AD3B452AF05A4C /* AASerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50588ACA78CD4C279B11232721DB5D /* AASerializable.swift */; };
 		B3B2715E468D80E682B780907C8D62CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		B61D1088DC3DB40CCE9A0FC78F80B46D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		B6955D8CFA4204B294AF18EFB9BD2080 /* AAInfographics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9028B383EB98F319A90A2202AC72F96F /* AAInfographics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C072A906E8E634E3FC289546614ADF92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
-		C7FEA231C19708678E57308FF828C15E /* Keyboard_DismissKey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C596A315F2BB194D8F00AF2256E6F3 /* Keyboard_DismissKey@2x.png */; };
-		F96CBD3556C17D42943659337517FA18 /* Customkeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E3EECCAC0E4095FBA7B7FC659DA69A /* Customkeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC7BFE5D35AC59EF9D931696AD17D52A /* Keyboard_Backspace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EA446B0AD908F288A3376ED3F322EA /* Keyboard_Backspace@2x.png */; };
+		C7FEA231C19708678E57308FF828C15E /* Keyboard_DismissKey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 589A0F9D6BE2AB69A3B2A332BA7CB811 /* Keyboard_DismissKey@2x.png */; };
+		DD41B7594065B559C95A7BF4EC879456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		DF25D73F45314758306287A5E5DA84E1 /* Pods-xx1.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A14812B38D9CF9E9A3DA5E5DB9DBD1D0 /* Pods-xx1.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF6315EF9870C0D08A6B1DD5B975618F /* Pods-xx1.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCF78816E25FB1BE22BCA173DB55E18 /* Pods-xx1.0-dummy.m */; };
+		F42309FA1CD379F0C7F256D2ED57B3E7 /* AAOptionsConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCB0DDE0180FE5A0C6AA013F71FD35 /* AAOptionsConstructor.swift */; };
+		F96CBD3556C17D42943659337517FA18 /* Customkeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F03E79A4FC4B738F581620FDC1D9569D /* Customkeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC4CB977EA8059E8A6D2B23129F101F9 /* Keyboard_DismissKey@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B3E0F6F1C462A7A2F60BAA8B3F68DC1 /* Keyboard_DismissKey@3x.png */; };
+		FC7BFE5D35AC59EF9D931696AD17D52A /* Keyboard_Backspace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6DF4B81C8C50E45C073E87B2FA1C4F /* Keyboard_Backspace@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		421C3C16D4A252E96038C29629B6E42D /* PBXContainerItemProxy */ = {
+		309E40D843E664BBD9C3565400017563 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064750C230EC1AB68D404E91D7821C0F;
+			remoteInfo = AAInfographics;
+		};
+		844A43278086CD114ECD911EB45E3A38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -41,38 +59,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05C27A4C3186C744A09C6AD2583A5481 /* ResourceBundle-CustomKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CustomKeyboard-Info.plist"; sourceTree = "<group>"; };
 		05ED018C59CE5BE08CDAD89D26E4EF35 /* Pods-xx1.0-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xx1.0-frameworks.sh"; sourceTree = "<group>"; };
 		0FCF78816E25FB1BE22BCA173DB55E18 /* Pods-xx1.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xx1.0-dummy.m"; sourceTree = "<group>"; };
-		15AA3CB14CF23A929E2786C424AA350D /* Pods_xx1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xx1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		175D228B6E0D8E455FE5B548F1BAFEBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13597F5593EAEE4529E55F43CCBEE4D7 /* Keyboard_Backspace@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Keyboard_Backspace@3x.png"; path = "CustomKeyboard/Resources/images/Keyboard_Backspace@3x.png"; sourceTree = "<group>"; };
+		13E22FA5165F61CDA939BE6F462B981E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1962DC7054D5A3965BC3779DC28AFC05 /* Pods-xx1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xx1.0.debug.xcconfig"; sourceTree = "<group>"; };
-		1F2F7E6ECB734A2C4C6D48984F2A4BC5 /* Customkeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Customkeyboard.xcconfig; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		25663531758E14679D57DF62F899ABA8 /* Keyboard_DismissKey.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Keyboard_DismissKey.png; path = CustomKeyboard/Resources/images/Keyboard_DismissKey.png; sourceTree = "<group>"; };
+		3C50588ACA78CD4C279B11232721DB5D /* AASerializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AASerializable.swift; path = AAInfographics/AAChartCreator/AASerializable.swift; sourceTree = "<group>"; };
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		47C596A315F2BB194D8F00AF2256E6F3 /* Keyboard_DismissKey@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Keyboard_DismissKey@2x.png"; path = "CustomKeyboard/Resources/CustomKeyboard.bundle/Keyboard_DismissKey@2x.png"; sourceTree = "<group>"; };
+		4C668E19D48B8B9F1F13821E909F184F /* CustomKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomKeyboard.swift; path = CustomKeyboard/CustomKeyboard.swift; sourceTree = "<group>"; };
 		51C77F148B5B33E5ADB2FC2BE41A53B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64FB27279E5AE97C608C8895936AB856 /* Keyboard_Backspace@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Keyboard_Backspace@3x.png"; path = "CustomKeyboard/Resources/images/Keyboard_Backspace@3x.png"; sourceTree = "<group>"; };
-		6F223D10572A3A9368C12799AF5A28F2 /* Customkeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Customkeyboard-dummy.m"; sourceTree = "<group>"; };
-		86B64F9FB2AA21E5BD4393544ABF6019 /* ResourceBundle-CustomKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CustomKeyboard-Info.plist"; sourceTree = "<group>"; };
-		94C6EAB0B3A2D8793D444682487B2536 /* Customkeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Customkeyboard.modulemap; sourceTree = "<group>"; };
-		97E3EECCAC0E4095FBA7B7FC659DA69A /* Customkeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Customkeyboard-umbrella.h"; sourceTree = "<group>"; };
-		A100436A10B23F1E60A8F90C46D2733F /* Customkeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Customkeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		589A0F9D6BE2AB69A3B2A332BA7CB811 /* Keyboard_DismissKey@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Keyboard_DismissKey@2x.png"; path = "CustomKeyboard/Resources/CustomKeyboard.bundle/Keyboard_DismissKey@2x.png"; sourceTree = "<group>"; };
+		6A6DF4B81C8C50E45C073E87B2FA1C4F /* Keyboard_Backspace@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Keyboard_Backspace@2x.png"; path = "CustomKeyboard/Resources/images/Keyboard_Backspace@2x.png"; sourceTree = "<group>"; };
+		6B3E0F6F1C462A7A2F60BAA8B3F68DC1 /* Keyboard_DismissKey@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Keyboard_DismissKey@3x.png"; path = "CustomKeyboard/Resources/images/Keyboard_DismissKey@3x.png"; sourceTree = "<group>"; };
+		70C4E6C98045AD52E2439488B2CF27AE /* AAInfographics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AAInfographics-dummy.m"; sourceTree = "<group>"; };
+		8255AF5A1DA38A864416EA340EF2D84B /* AAChartModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AAChartModel.swift; path = AAInfographics/AAChartCreator/AAChartModel.swift; sourceTree = "<group>"; };
+		8B5D28E47FB316721B6B28A8628272CD /* AAJSFiles.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AAJSFiles.bundle; path = AAInfographics/AAJSFiles.bundle; sourceTree = "<group>"; };
+		9028B383EB98F319A90A2202AC72F96F /* AAInfographics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AAInfographics-umbrella.h"; sourceTree = "<group>"; };
+		92DCB0DDE0180FE5A0C6AA013F71FD35 /* AAOptionsConstructor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AAOptionsConstructor.swift; path = AAInfographics/AAChartCreator/AAOptionsConstructor.swift; sourceTree = "<group>"; };
+		97538684206827709D8762A2FB23E285 /* CustomKeyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomKeyboard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		980A2B6ABF292538F23EEA012846BFAB /* AAInfographics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AAInfographics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DB94B4DCDBA255D3DBC80D21555EE4 /* AAInfographics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AAInfographics-prefix.pch"; sourceTree = "<group>"; };
+		9B3B20EE3401AC0D47EA64351F871562 /* AAChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AAChartView.swift; path = AAInfographics/AAChartCreator/AAChartView.swift; sourceTree = "<group>"; };
+		9F29B12360337F62B8B89216648FC3A3 /* AAGradientColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AAGradientColor.swift; path = AAInfographics/AAChartCreator/AAGradientColor.swift; sourceTree = "<group>"; };
 		A14812B38D9CF9E9A3DA5E5DB9DBD1D0 /* Pods-xx1.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xx1.0-umbrella.h"; sourceTree = "<group>"; };
+		A38A164A5463BD332AD04D17F7B37286 /* Pods_xx1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xx1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58E8856904707230058BE970195C0BA /* Pods-xx1.0-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xx1.0-resources.sh"; sourceTree = "<group>"; };
-		A6A9816E2252350F00798C36 /* CustomKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
-		AC7B96D5ABE9233E257A2E225E5DCC51 /* Customkeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Customkeyboard-prefix.pch"; sourceTree = "<group>"; };
+		A8A9BD087DEE6C996284A16F4CAD9530 /* Customkeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Customkeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4FED1651CB9BA3E903473720CDB27F /* Customkeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Customkeyboard.xcconfig; sourceTree = "<group>"; };
+		AB40CCE3BABE3DB903252BAC721DB889 /* Keyboard_DismissKey.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Keyboard_DismissKey.png; path = CustomKeyboard/Resources/images/Keyboard_DismissKey.png; sourceTree = "<group>"; };
+		AD532A5BA5445F069C98334D7AB5241C /* AASeriesElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AASeriesElement.swift; path = AAInfographics/AAChartCreator/AASeriesElement.swift; sourceTree = "<group>"; };
 		B84325A118C59F11813F539540676C4B /* Pods-xx1.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-xx1.0.modulemap"; sourceTree = "<group>"; };
+		C47DA5E9428545B4CDB92C9517CA8ACD /* AAInfographics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AAInfographics.modulemap; sourceTree = "<group>"; };
+		C4F06D0E773C2459613BF69A4C9426A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C825AB5CC65E4439ECFA2E7BDAB05E99 /* Pods-xx1.0-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xx1.0-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0F5E5846E8339C528BA6525431DE212 /* Customkeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Customkeyboard.modulemap; sourceTree = "<group>"; };
 		D3242C12E5D8DA262FBB7C3C171674B1 /* Pods-xx1.0-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xx1.0-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D4EA446B0AD908F288A3376ED3F322EA /* Keyboard_Backspace@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Keyboard_Backspace@2x.png"; path = "CustomKeyboard/Resources/images/Keyboard_Backspace@2x.png"; sourceTree = "<group>"; };
-		D9391AB139A215F1D50DB6E911D2EE56 /* Keyboard_DismissKey@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Keyboard_DismissKey@3x.png"; path = "CustomKeyboard/Resources/CustomKeyboard.bundle/Keyboard_DismissKey@3x.png"; sourceTree = "<group>"; };
-		DDF890AFD894FB5345CFCC97592AE7BE /* CustomKeyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomKeyboard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45131FA74ADF694751AB4593622D5EF /* AAColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AAColor.swift; path = AAInfographics/AAChartCreator/AAColor.swift; sourceTree = "<group>"; };
+		E16D5037502B205FD80E623D5183F829 /* Customkeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Customkeyboard-prefix.pch"; sourceTree = "<group>"; };
+		E21F86EEEAA6F15503E0258C4BC17B32 /* AAInfographics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AAInfographics.xcconfig; sourceTree = "<group>"; };
 		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F03E79A4FC4B738F581620FDC1D9569D /* Customkeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Customkeyboard-umbrella.h"; sourceTree = "<group>"; };
 		F112D0228006E81ACFA69BD5861B6B2E /* Pods-xx1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xx1.0.release.xcconfig"; sourceTree = "<group>"; };
+		F59FBEEC423106D5D7B20672E02C0405 /* Customkeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Customkeyboard-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		44FC750C06BA14828A6BCC1680EE58F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61D1088DC3DB40CCE9A0FC78F80B46D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94E1191BFE0F829083F83F5CA3A762A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,18 +123,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2AFB0F99897FA646A5BA6DF6015A644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD41B7594065B559C95A7BF4EC879456 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E24FA13B81EDB61C2DABE0E62D5610F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC034ECD8E1E7316C4325AB5A8346DB0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2293F99F2BA1A9A53B969F4DF7B2CFBE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,14 +149,56 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2E57DFAB937E1581A91E2BB2783C3D97 /* Products */ = {
+		1A34BC853B0D3DEE3791AD287280B53D /* Customkeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				DDF890AFD894FB5345CFCC97592AE7BE /* CustomKeyboard.bundle */,
-				A100436A10B23F1E60A8F90C46D2733F /* Customkeyboard.framework */,
-				15AA3CB14CF23A929E2786C424AA350D /* Pods_xx1_0.framework */,
+				4C668E19D48B8B9F1F13821E909F184F /* CustomKeyboard.swift */,
+				4FFEC54F47E713A246637BFE7CE4DD3A /* Resources */,
+				783CC21D11A7DF913E7A7D7B892237AD /* Support Files */,
 			);
-			name = Products;
+			path = Customkeyboard;
+			sourceTree = "<group>";
+		};
+		2722E9C5FFFC6C90E0C643DEC5D1DA73 /* AAInfographics */ = {
+			isa = PBXGroup;
+			children = (
+				8255AF5A1DA38A864416EA340EF2D84B /* AAChartModel.swift */,
+				9B3B20EE3401AC0D47EA64351F871562 /* AAChartView.swift */,
+				D45131FA74ADF694751AB4593622D5EF /* AAColor.swift */,
+				9F29B12360337F62B8B89216648FC3A3 /* AAGradientColor.swift */,
+				92DCB0DDE0180FE5A0C6AA013F71FD35 /* AAOptionsConstructor.swift */,
+				3C50588ACA78CD4C279B11232721DB5D /* AASerializable.swift */,
+				AD532A5BA5445F069C98334D7AB5241C /* AASeriesElement.swift */,
+				81491663FD72429A296BC5AC5307114A /* Resources */,
+				2B61B6C6F4E1FC82BE332EE51B566BF9 /* Support Files */,
+			);
+			path = AAInfographics;
+			sourceTree = "<group>";
+		};
+		2B61B6C6F4E1FC82BE332EE51B566BF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C47DA5E9428545B4CDB92C9517CA8ACD /* AAInfographics.modulemap */,
+				E21F86EEEAA6F15503E0258C4BC17B32 /* AAInfographics.xcconfig */,
+				70C4E6C98045AD52E2439488B2CF27AE /* AAInfographics-dummy.m */,
+				99DB94B4DCDBA255D3DBC80D21555EE4 /* AAInfographics-prefix.pch */,
+				9028B383EB98F319A90A2202AC72F96F /* AAInfographics-umbrella.h */,
+				C4F06D0E773C2459613BF69A4C9426A6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AAInfographics";
+			sourceTree = "<group>";
+		};
+		4FFEC54F47E713A246637BFE7CE4DD3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A6DF4B81C8C50E45C073E87B2FA1C4F /* Keyboard_Backspace@2x.png */,
+				13597F5593EAEE4529E55F43CCBEE4D7 /* Keyboard_Backspace@3x.png */,
+				AB40CCE3BABE3DB903252BAC721DB889 /* Keyboard_DismissKey.png */,
+				589A0F9D6BE2AB69A3B2A332BA7CB811 /* Keyboard_DismissKey@2x.png */,
+				6B3E0F6F1C462A7A2F60BAA8B3F68DC1 /* Keyboard_DismissKey@3x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5A8DDC9B8ECD3B1C11A67E4E206CB81B /* Pods-xx1.0 */ = {
@@ -136,22 +219,27 @@
 			path = "Target Support Files/Pods-xx1.0";
 			sourceTree = "<group>";
 		};
-		5B14A2C9FB33FD5EF930F3C69C6838AB /* Customkeyboard */ = {
+		783CC21D11A7DF913E7A7D7B892237AD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A6A9816E2252350F00798C36 /* CustomKeyboard.swift */,
-				9E947D98D432C43CC3645E46510EF2F4 /* Resources */,
-				99301BF5D4100AE8807AF475254411F4 /* Support Files */,
+				D0F5E5846E8339C528BA6525431DE212 /* Customkeyboard.modulemap */,
+				AA4FED1651CB9BA3E903473720CDB27F /* Customkeyboard.xcconfig */,
+				F59FBEEC423106D5D7B20672E02C0405 /* Customkeyboard-dummy.m */,
+				E16D5037502B205FD80E623D5183F829 /* Customkeyboard-prefix.pch */,
+				F03E79A4FC4B738F581620FDC1D9569D /* Customkeyboard-umbrella.h */,
+				13E22FA5165F61CDA939BE6F462B981E /* Info.plist */,
+				05C27A4C3186C744A09C6AD2583A5481 /* ResourceBundle-CustomKeyboard-Info.plist */,
 			);
-			path = Customkeyboard;
+			name = "Support Files";
+			path = "../Target Support Files/Customkeyboard";
 			sourceTree = "<group>";
 		};
-		86177A5CEAAE33371854009F5B4E0C43 /* Pods */ = {
+		81491663FD72429A296BC5AC5307114A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5B14A2C9FB33FD5EF930F3C69C6838AB /* Customkeyboard */,
+				8B5D28E47FB316721B6B28A8628272CD /* AAJSFiles.bundle */,
 			);
-			name = Pods;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		94693CBD387F13A33902CEFA97E23AB8 /* Targets Support Files */ = {
@@ -162,40 +250,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		99301BF5D4100AE8807AF475254411F4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				94C6EAB0B3A2D8793D444682487B2536 /* Customkeyboard.modulemap */,
-				1F2F7E6ECB734A2C4C6D48984F2A4BC5 /* Customkeyboard.xcconfig */,
-				6F223D10572A3A9368C12799AF5A28F2 /* Customkeyboard-dummy.m */,
-				AC7B96D5ABE9233E257A2E225E5DCC51 /* Customkeyboard-prefix.pch */,
-				97E3EECCAC0E4095FBA7B7FC659DA69A /* Customkeyboard-umbrella.h */,
-				175D228B6E0D8E455FE5B548F1BAFEBC /* Info.plist */,
-				86B64F9FB2AA21E5BD4393544ABF6019 /* ResourceBundle-CustomKeyboard-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Customkeyboard";
-			sourceTree = "<group>";
-		};
-		9E947D98D432C43CC3645E46510EF2F4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D4EA446B0AD908F288A3376ED3F322EA /* Keyboard_Backspace@2x.png */,
-				64FB27279E5AE97C608C8895936AB856 /* Keyboard_Backspace@3x.png */,
-				25663531758E14679D57DF62F899ABA8 /* Keyboard_DismissKey.png */,
-				47C596A315F2BB194D8F00AF2256E6F3 /* Keyboard_DismissKey@2x.png */,
-				D9391AB139A215F1D50DB6E911D2EE56 /* Keyboard_DismissKey@3x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				86177A5CEAAE33371854009F5B4E0C43 /* Pods */,
-				2E57DFAB937E1581A91E2BB2783C3D97 /* Products */,
+				FB320CA9E72DFCACBCF5C882A7B24A2C /* Pods */,
+				EA9ABED5DFC52FE4C1702F3C34D95BFE /* Products */,
 				94693CBD387F13A33902CEFA97E23AB8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -209,14 +270,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		EA9ABED5DFC52FE4C1702F3C34D95BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				980A2B6ABF292538F23EEA012846BFAB /* AAInfographics.framework */,
+				97538684206827709D8762A2FB23E285 /* CustomKeyboard.bundle */,
+				A8A9BD087DEE6C996284A16F4CAD9530 /* Customkeyboard.framework */,
+				A38A164A5463BD332AD04D17F7B37286 /* Pods_xx1_0.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB320CA9E72DFCACBCF5C882A7B24A2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2722E9C5FFFC6C90E0C643DEC5D1DA73 /* AAInfographics */,
+				1A34BC853B0D3DEE3791AD287280B53D /* Customkeyboard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3DE41A48D61E9F40AD7598E2A6D17314 /* Headers */ = {
+		2563FD44A861C32E068910E025BE611C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40BF3210F92AC78D4B63BCC9B8096919 /* Pods-xx1.0-umbrella.h in Headers */,
+				DF25D73F45314758306287A5E5DA84E1 /* Pods-xx1.0-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,9 +309,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		915C2137C68586C0AFD080FFB22DEB2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6955D8CFA4204B294AF18EFB9BD2080 /* AAInfographics-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		064750C230EC1AB68D404E91D7821C0F /* AAInfographics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7484AD2CF87D384ADE45679E3D1A8D3 /* Build configuration list for PBXNativeTarget "AAInfographics" */;
+			buildPhases = (
+				915C2137C68586C0AFD080FFB22DEB2E /* Headers */,
+				F7B9CD6B14233E7439B632205DE0F282 /* Sources */,
+				D2AFB0F99897FA646A5BA6DF6015A644 /* Frameworks */,
+				238C2198F0BFE273501366A763C1109E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AAInfographics;
+			productName = AAInfographics;
+			productReference = 980A2B6ABF292538F23EEA012846BFAB /* AAInfographics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		469FB73CD9ECD81C40EE5BC321AA7414 /* Customkeyboard */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABE0F02C327B7F6702E5E381BE543425 /* Build configuration list for PBXNativeTarget "Customkeyboard" */;
@@ -247,26 +354,7 @@
 			);
 			name = Customkeyboard;
 			productName = Customkeyboard;
-			productReference = A100436A10B23F1E60A8F90C46D2733F /* Customkeyboard.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		50C84B1C6D224F89956B914EE7E86CA6 /* Pods-xx1.0 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0DB8BAE5D1DD6B5AF1310D309A4B8993 /* Build configuration list for PBXNativeTarget "Pods-xx1.0" */;
-			buildPhases = (
-				3DE41A48D61E9F40AD7598E2A6D17314 /* Headers */,
-				42FB1D38E93BBA1DADA0ED62B6D4A46B /* Sources */,
-				FC034ECD8E1E7316C4325AB5A8346DB0 /* Frameworks */,
-				B8CF4B7424A12369CD3E9350695D9A36 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7EA3D2EAF1164FDF317E52282A8D6DC7 /* PBXTargetDependency */,
-			);
-			name = "Pods-xx1.0";
-			productName = "Pods-xx1.0";
-			productReference = 15AA3CB14CF23A929E2786C424AA350D /* Pods_xx1_0.framework */;
+			productReference = A8A9BD087DEE6C996284A16F4CAD9530 /* Customkeyboard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8DFDE3E0A6CEF58EF0A211C615D8EA3C /* Customkeyboard-CustomKeyboard */ = {
@@ -283,8 +371,28 @@
 			);
 			name = "Customkeyboard-CustomKeyboard";
 			productName = "Customkeyboard-CustomKeyboard";
-			productReference = DDF890AFD894FB5345CFCC97592AE7BE /* CustomKeyboard.bundle */;
+			productReference = 97538684206827709D8762A2FB23E285 /* CustomKeyboard.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		AE6F738AF684B335BD78848F7B48A0FD /* Pods-xx1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9756CC0DF7C5FC0EC12D631376D15352 /* Build configuration list for PBXNativeTarget "Pods-xx1.0" */;
+			buildPhases = (
+				2563FD44A861C32E068910E025BE611C /* Headers */,
+				E905DCE8DADCB0684BE5418DCEDB554F /* Sources */,
+				44FC750C06BA14828A6BCC1680EE58F6 /* Frameworks */,
+				378811C192AE500D6AE987434572BBE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2BFAD5F0856563A961E87B6E6645407 /* PBXTargetDependency */,
+				269CDBFF36E509371004F96793F938D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-xx1.0";
+			productName = "Pods-xx1.0";
+			productReference = A38A164A5463BD332AD04D17F7B37286 /* Pods_xx1_0.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -294,11 +402,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					469FB73CD9ECD81C40EE5BC321AA7414 = {
-						LastSwiftMigration = 1020;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -309,18 +412,34 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2E57DFAB937E1581A91E2BB2783C3D97 /* Products */;
+			productRefGroup = EA9ABED5DFC52FE4C1702F3C34D95BFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				064750C230EC1AB68D404E91D7821C0F /* AAInfographics */,
 				469FB73CD9ECD81C40EE5BC321AA7414 /* Customkeyboard */,
 				8DFDE3E0A6CEF58EF0A211C615D8EA3C /* Customkeyboard-CustomKeyboard */,
-				50C84B1C6D224F89956B914EE7E86CA6 /* Pods-xx1.0 */,
+				AE6F738AF684B335BD78848F7B48A0FD /* Pods-xx1.0 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		238C2198F0BFE273501366A763C1109E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C16B42EDAD9D081120587BA165C4871 /* AAJSFiles.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378811C192AE500D6AE987434572BBE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F3DF93327ADB41C24A5F7289EA9B025 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,34 +456,19 @@
 				308C716439B39C795C1C71DB2B11F46A /* Keyboard_Backspace@3x.png in Resources */,
 				5088F168DB08213C15B39641AFC6C052 /* Keyboard_DismissKey.png in Resources */,
 				C7FEA231C19708678E57308FF828C15E /* Keyboard_DismissKey@2x.png in Resources */,
-				1B5CC5C0DE344F42B575D4AE84FC6FF5 /* Keyboard_DismissKey@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8CF4B7424A12369CD3E9350695D9A36 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				FC4CB977EA8059E8A6D2B23129F101F9 /* Keyboard_DismissKey@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42FB1D38E93BBA1DADA0ED62B6D4A46B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C5F6C3C6F33B493A025BA8C0E80C820 /* Pods-xx1.0-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		67549DBFFFAD7E1F5CCF4C4A9B632E25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				30940559451D1F3B2B7721B5330FC04D /* Customkeyboard-dummy.m in Sources */,
-				A6A9816F2252350F00798C36 /* CustomKeyboard.swift in Sources */,
+				122143211591464EEE29F6A2E228A1AA /* CustomKeyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,14 +479,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E905DCE8DADCB0684BE5418DCEDB554F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6315EF9870C0D08A6B1DD5B975618F /* Pods-xx1.0-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B9CD6B14233E7439B632205DE0F282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9C3D6D0EC1210E77418300603460B4 /* AAChartModel.swift in Sources */,
+				5806F04B1516A9B95F9EDBC3C42441BE /* AAChartView.swift in Sources */,
+				3C3F26204703D8B6FBBAB7931F43074B /* AAColor.swift in Sources */,
+				2C2204AF5C07E8160B9DC425065CAF8B /* AAGradientColor.swift in Sources */,
+				2F848EC8360E42A056F62FDDB13580A8 /* AAInfographics-dummy.m in Sources */,
+				F42309FA1CD379F0C7F256D2ED57B3E7 /* AAOptionsConstructor.swift in Sources */,
+				9ABB09CE44329A8F80AD3B452AF05A4C /* AASerializable.swift in Sources */,
+				536CB7000D687BEF143BDF520409C0DD /* AASeriesElement.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7EA3D2EAF1164FDF317E52282A8D6DC7 /* PBXTargetDependency */ = {
+		269CDBFF36E509371004F96793F938D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Customkeyboard;
 			target = 469FB73CD9ECD81C40EE5BC321AA7414 /* Customkeyboard */;
-			targetProxy = 421C3C16D4A252E96038C29629B6E42D /* PBXContainerItemProxy */;
+			targetProxy = 844A43278086CD114ECD911EB45E3A38 /* PBXContainerItemProxy */;
 		};
 		CDB9EFAE34F20F8606E475016CA079D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -390,15 +517,19 @@
 			target = 8DFDE3E0A6CEF58EF0A211C615D8EA3C /* Customkeyboard-CustomKeyboard */;
 			targetProxy = E74FF8BB9793F8FA3701D78950655225 /* PBXContainerItemProxy */;
 		};
+		D2BFAD5F0856563A961E87B6E6645407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AAInfographics;
+			target = 064750C230EC1AB68D404E91D7821C0F /* AAInfographics */;
+			targetProxy = 309E40D843E664BBD9C3565400017563 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		362706841049E018A0A2B04E1C2EAEC8 /* Release */ = {
+		312D103E2F0789AB8030D884691E177C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F112D0228006E81ACFA69BD5861B6B2E /* Pods-xx1.0.release.xcconfig */;
+			baseConfigurationReference = E21F86EEEAA6F15503E0258C4BC17B32 /* AAInfographics.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -408,19 +539,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-xx1.0/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AAInfographics/AAInfographics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AAInfographics/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-xx1.0/Pods-xx1.0.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/AAInfographics/AAInfographics.modulemap";
+				PRODUCT_MODULE_NAME = AAInfographics;
+				PRODUCT_NAME = AAInfographics;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -491,9 +621,8 @@
 		};
 		63C040DCAF2E846773187C2920A08E92 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F2F7E6ECB734A2C4C6D48984F2A4BC5 /* Customkeyboard.xcconfig */;
+			baseConfigurationReference = AA4FED1651CB9BA3E903473720CDB27F /* Customkeyboard.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -525,7 +654,7 @@
 		};
 		7D67D480F0699525229E6F32990B9B6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F2F7E6ECB734A2C4C6D48984F2A4BC5 /* Customkeyboard.xcconfig */;
+			baseConfigurationReference = AA4FED1651CB9BA3E903473720CDB27F /* Customkeyboard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Customkeyboard";
@@ -538,6 +667,75 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		8DE4E1DA769BA263F8E6FACDA5102C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F112D0228006E81ACFA69BD5861B6B2E /* Pods-xx1.0.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-xx1.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-xx1.0/Pods-xx1.0.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DF97751E0A238137B12D1B120E56142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1962DC7054D5A3965BC3779DC28AFC05 /* Pods-xx1.0.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-xx1.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-xx1.0/Pods-xx1.0.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		9FB4A39DC238144D8A61F5F7F8E49F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -607,9 +805,8 @@
 		};
 		B3403486C411BFB0FD05D9BB5A211949 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F2F7E6ECB734A2C4C6D48984F2A4BC5 /* Customkeyboard.xcconfig */;
+			baseConfigurationReference = AA4FED1651CB9BA3E903473720CDB27F /* Customkeyboard.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -631,7 +828,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -639,12 +835,10 @@
 			};
 			name = Debug;
 		};
-		C1FA6F79B011C6FD6DC5955446D0211A /* Debug */ = {
+		E6DBB1AEDD327A225B08841F44696ECD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1962DC7054D5A3965BC3779DC28AFC05 /* Pods-xx1.0.debug.xcconfig */;
+			baseConfigurationReference = E21F86EEEAA6F15503E0258C4BC17B32 /* AAInfographics.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -654,19 +848,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-xx1.0/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AAInfographics/AAInfographics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AAInfographics/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-xx1.0/Pods-xx1.0.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/AAInfographics/AAInfographics.modulemap";
+				PRODUCT_MODULE_NAME = AAInfographics;
+				PRODUCT_NAME = AAInfographics;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -675,7 +868,7 @@
 		};
 		F9756338D998A7E106498CD906CC2A48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F2F7E6ECB734A2C4C6D48984F2A4BC5 /* Customkeyboard.xcconfig */;
+			baseConfigurationReference = AA4FED1651CB9BA3E903473720CDB27F /* Customkeyboard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Customkeyboard";
@@ -692,20 +885,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DB8BAE5D1DD6B5AF1310D309A4B8993 /* Build configuration list for PBXNativeTarget "Pods-xx1.0" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1FA6F79B011C6FD6DC5955446D0211A /* Debug */,
-				362706841049E018A0A2B04E1C2EAEC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FB4A39DC238144D8A61F5F7F8E49F22 /* Debug */,
 				465052AF81E121AB6881C70269A7880F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9756CC0DF7C5FC0EC12D631376D15352 /* Build configuration list for PBXNativeTarget "Pods-xx1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF97751E0A238137B12D1B120E56142 /* Debug */,
+				8DE4E1DA769BA263F8E6FACDA5102C75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -724,6 +917,15 @@
 			buildConfigurations = (
 				F9756338D998A7E106498CD906CC2A48 /* Debug */,
 				7D67D480F0699525229E6F32990B9B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7484AD2CF87D384ADE45679E3D1A8D3 /* Build configuration list for PBXNativeTarget "AAInfographics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DBB1AEDD327A225B08841F44696ECD /* Debug */,
+				312D103E2F0789AB8030D884691E177C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

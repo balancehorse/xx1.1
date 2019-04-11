@@ -102,7 +102,6 @@
 				58B111B522017AD70094C9C3 /* xxViewController */,
 				58B1119822007E710094C9C3 /* Info.plist */,
 				A6179AB0222B800500D9960E /* dic1.plist */,
-				A6179AB2222E677800D9960E /* dic2.plist */,
 				A6179AB4222E67CC00D9960E /* dic3.plist */,
 				A6179AB6222E67D800D9960E /* dic4.plist */,
 				A6179AB8222E67EC00D9960E /* dic5.plist */,
@@ -129,6 +128,7 @@
 				58B111BA22017AD70094C9C3 /* AccountViewController.swift */,
 				58B111B822017AD70094C9C3 /* DetailViewController.swift */,
 				58B111B922017AD70094C9C3 /* ChartViewController.swift */,
+				A6179AB2222E677800D9960E /* dic2.plist */,
 				58B111B622017AD70094C9C3 /* SettingViewController.swift */,
 			);
 			path = xxViewController;
@@ -225,12 +225,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-xx1.0/Pods-xx1.0-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AAInfographics/AAInfographics.framework",
 				"${BUILT_PRODUCTS_DIR}/Customkeyboard/Customkeyboard.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AAInfographics.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Customkeyboard.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

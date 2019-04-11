@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double CustomkeyboardVersionNumber;
-FOUNDATION_EXPORT const unsigned char CustomkeyboardVersionString[];
+FOUNDATION_EXPORT double AAInfographicsVersionNumber;
+FOUNDATION_EXPORT const unsigned char AAInfographicsVersionString[];
 

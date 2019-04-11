@@ -39,19 +39,19 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
     
     /// 按钮数组
     fileprivate var buttions: [UIButton] = []
-
+    
     /// 按钮文字
     fileprivate lazy var titles = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
     
-
+    
     /// 是否高亮
     public var whetherHighlight = false {
         didSet {        // 监听 `whetherHighlight` 数值的改变, 从而设置按钮高亮状态
             highlight(heghlight: whetherHighlight)
         }
     }
-//
-//    / 是否开启键盘
+    //
+    //    / 是否开启键盘
     public var isEnableKeyboard: Bool = false {
         didSet {
             if isEnableKeyboard {
@@ -62,14 +62,14 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
                  *参数三：通知的名字
                  *参数四：收到指定对象的通知，没有指定具体对象就写nil
                  */
-//                NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
-//                NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+                                NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+                                NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
             }else {
                 NotificationCenter.default.removeObserver(self)
             }
         }
     }
-
+    
     // MARK: - 方法
     
     /// 自定义完成按钮
@@ -84,7 +84,7 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
         
         setDoneButton(title, titleColor: titleColor, theme: theme, target: target, callback: callback)
     }
-
+    
     /*
      指定构造器: 必须调用它直接父类的指定构造器方法.
      便利构造器: 必须调用同一个类中定义的其它初始化方法.
@@ -102,7 +102,7 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
         addKeyboard(view, field: field)
     }
     
-  
+    
     /// 初始化方法
     ///
     /// - Parameters:
@@ -111,7 +111,7 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
     public override init(frame: CGRect, inputViewStyle: UIInputView.Style) {
         super.init(frame: frame, inputViewStyle: inputViewStyle)
     }
-
+    
     public required init?(coder _: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -147,19 +147,19 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
     /***** 绘制界面: 按钮的分割线 *****/
     // 调用情况: 1.UIView初始化后自动调用； 2.调用setNeedsDisplay方法时会自动调用）
     open override func draw(_ rect: CGRect) {
-
+        
         /// 纵列数
         let columnsNum = 4
-
+        
         /// 一个按钮的宽度
         let btnWidth = frame.width / CGFloat(columnsNum)
-
+        
         /// 一个按钮的高度
         let btnHeight = frame.height / CGFloat(columnsNum)
-
+        
         // 创建一个贝塞尔路径
         let bezierPath = UIBezierPath()
-
+        
         for i in 0 ... 3 {  // 4条横线
             //开始绘制
             bezierPath.move(to: CGPoint(x: 0, y: btnHeight * CGFloat(i)))
@@ -195,7 +195,7 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
         itemButton.backgroundColor = theme
         itemButton.setTitleColor(titleColor, for: .normal)
     }
-
+    
     /// 添加键盘视图
     ///
     /// - Parameters:
@@ -219,7 +219,7 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
         textField.inputView = self
         textField.delegate = self
     }
-
+    
     
     /// 自定义视图
     private func customSubview() {
@@ -247,13 +247,13 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
         // 设置图片
         backSpace = UIImage(named: "Keyboard_Backspace", in: bundle, compatibleWith: nil)
         dismiss = UIImage(named: "Keyboard_DismissKey", in: bundle, compatibleWith: nil)
-
+        
         /* 创建键盘视图上所有的按钮 */
         for idx in 0 ..< buttonsCount {
             let button = UIButton()
             button.titleLabel?.font = UIFont.systemFont(ofSize: 28)
             button.setTitleColor(UIColor.black, for: .normal)
-
+            
             switch idx {    // tag值
             case 9:         //包含0, 所以当前是第10个按钮
                 button.setTitle("", for: .normal)
@@ -279,7 +279,7 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
                 button.titleLabel?.font = UIFont.systemFont(ofSize: 22)
                 buttions.append(button)
                 
-               // button.setImage(backSpace, for: .normal)
+                // button.setImage(backSpace, for: .normal)
                 
             default:        // 数字按钮
                 button.setTitle("\(idx + 1)", for: .normal)
@@ -290,7 +290,7 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
             button.tag = idx + 1
         }
     }
-
+    
     /// 键盘视图按钮点击事件
     ///
     /// - Parameter sender: 按钮
@@ -321,9 +321,9 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
             firstResponder()?.insertText(text)
         }
         /*
-        播放输入点击.
-            想要在点击自定义输入或键盘附加视图的键时: 播放输入点击音，首先要确认该视图采用了UIInputViewAudioFeedback协议。
-            然后，为每个点击提供你想要的点击声音，调用UIDevice类的playInputClick方法
+         播放输入点击.
+         想要在点击自定义输入或键盘附加视图的键时: 播放输入点击音，首先要确认该视图采用了UIInputViewAudioFeedback协议。
+         然后，为每个点击提供你想要的点击声音，调用UIDevice类的playInputClick方法
          */
         UIDevice.current.playInputClick()
     }
@@ -335,7 +335,7 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
         
         // 获取按钮的当前文字
         guard let text = btn.currentTitle else { return }
-
+        
         // 获取文本输入框的文字
         guard let str = firstResponder()?.text else { return }
         // 是否包含字符 '.'
@@ -364,7 +364,7 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
         // 添加长按手势
         button.addGestureRecognizer(longPress)
     }
-
+    
     /// 删除按钮长按事件
     ///
     /// - Parameter sender: 长按手势
@@ -380,7 +380,7 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
             firstResponder()?.deleteBackward()
         }
     }
- 
+    
     /// 高亮状态
     ///
     /// - Parameter heghlight: 是否高亮
@@ -408,7 +408,7 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
             }
         }
     }
-
+    
     /// 设置数字按钮的样式
     ///
     /// - Parameter style: 样式
@@ -439,7 +439,7 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
         }
         return firstResponder
     }
-
+    
     /// 通过按钮的 tag 值，获取按钮
     ///
     /// - Parameter tag:  tag 值
@@ -453,7 +453,7 @@ open class CustomKeyboard: UIInputView, UITextFieldDelegate, UIGestureRecognizer
         }
         return nil
     }
-
+    
     /// 调用Bundle的localizedString去查找指定( 调用者 )下的key并返回值
     ///
     /// - Parameter key: 调用者的key
@@ -487,7 +487,7 @@ extension UIImage {
     ///   - size: 尺寸
     /// - Returns: UIImage
     fileprivate class func dk_image(with color: UIColor, size: CGSize = CGSize(width: 1, height: 1)) -> UIImage {
-       
+        
         // 开启图形上下文
         UIGraphicsBeginImageContext(size)
         // 设置颜色
