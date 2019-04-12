@@ -25,6 +25,7 @@
 		A6179AB5222E67CC00D9960E /* dic3.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6179AB4222E67CC00D9960E /* dic3.plist */; };
 		A6179AB7222E67D800D9960E /* dic4.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6179AB6222E67D800D9960E /* dic4.plist */; };
 		A6179AB9222E67EC00D9960E /* dic5.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6179AB8222E67EC00D9960E /* dic5.plist */; };
+		A6241EAE226047230002E556 /* chartViewControllerPie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6241EAD226047230002E556 /* chartViewControllerPie.swift */; };
 		A68C13AC224A1106009E61BE /* CameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C13AB224A1105009E61BE /* CameraHandler.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		A6179AB4222E67CC00D9960E /* dic3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = dic3.plist; sourceTree = "<group>"; };
 		A6179AB6222E67D800D9960E /* dic4.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = dic4.plist; sourceTree = "<group>"; };
 		A6179AB8222E67EC00D9960E /* dic5.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = dic5.plist; sourceTree = "<group>"; };
+		A6241EAD226047230002E556 /* chartViewControllerPie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartViewControllerPie.swift; sourceTree = "<group>"; };
 		A68C13AB224A1105009E61BE /* CameraHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraHandler.swift; sourceTree = "<group>"; };
 		EFFBA599A9062A9777C2D739 /* Pods-xx1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xx1.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xx1.0/Pods-xx1.0.debug.xcconfig"; sourceTree = "<group>"; };
 		F2D9DCD7DE8B8B052214391C /* Pods_xx1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xx1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 				58B111B522017AD70094C9C3 /* xxViewController */,
 				58B1119822007E710094C9C3 /* Info.plist */,
 				A6179AB0222B800500D9960E /* dic1.plist */,
+				A6179AB2222E677800D9960E /* dic2.plist */,
 				A6179AB4222E67CC00D9960E /* dic3.plist */,
 				A6179AB6222E67D800D9960E /* dic4.plist */,
 				A6179AB8222E67EC00D9960E /* dic5.plist */,
@@ -128,8 +131,8 @@
 				58B111BA22017AD70094C9C3 /* AccountViewController.swift */,
 				58B111B822017AD70094C9C3 /* DetailViewController.swift */,
 				58B111B922017AD70094C9C3 /* ChartViewController.swift */,
-				A6179AB2222E677800D9960E /* dic2.plist */,
 				58B111B622017AD70094C9C3 /* SettingViewController.swift */,
+				A6241EAD226047230002E556 /* chartViewControllerPie.swift */,
 			);
 			path = xxViewController;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				58B111BF22017AD70094C9C3 /* AccountViewController.swift in Sources */,
 				58B1118D22007E700094C9C3 /* AppDelegate.swift in Sources */,
+				A6241EAE226047230002E556 /* chartViewControllerPie.swift in Sources */,
 				58B111AF220176660094C9C3 /* MCTabBar.swift in Sources */,
 				58B111B22201781D0094C9C3 /* xxTabBarViewController.swift in Sources */,
 				A68C13AC224A1106009E61BE /* CameraHandler.swift in Sources */,
